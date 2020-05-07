@@ -1,0 +1,238 @@
+.body{
+    background-color: #131862;
+}
+
+.wrapper{
+    position: relative;
+    height:1000px;
+    width:1000px;
+    margin: auto;
+}
+
+.moon{
+    width: 70px;
+    height: 70px;
+    background: #fefcd7;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -2;
+    left: 800px;
+}
+
+.crater01{
+    width: 13px;
+    height: 13px;
+    background: #fffa94;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    left: 820px;
+    top: 10px;
+}
+
+.crater02{
+    width: 12px;
+    height: 12px;
+    background: #fffa94;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    left: 835px;
+    top: 21px;
+}
+
+.crater03{
+    width: 14px;
+    height: 14px;
+    background: #fffa94;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    left: 810px;
+    top: 34px;
+}
+
+.pacMan{
+    width: 0px;
+    height: 0px;
+    border-right: 85px solid transparent;
+    border-top: 85px solid yellow;
+    border-left: 85px solid yellow;
+    border-bottom: 85px solid yellow;
+    border-top-left-radius: 85px;
+    border-top-right-radius: 85px;
+    border-bottom-left-radius: 85px;
+    border-bottom-right-radius: 85px;
+    position: absolute;
+    left: 50px;
+    top: 130px;
+    transform: rotate(330deg);
+}
+
+.pinkGhost{
+    width: 70px;
+    height: 70px;
+    background-color: deeppink;
+    border-radius: 50% 50% 0 0;
+    position: absolute;
+    z-index: -2;
+    left: 375px;
+    top: 70px;
+    transform: rotate(340deg);
+}
+
+.ghostEyeRight{
+    width: 11px;
+    height: 11px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    left: 413px;
+    top: 79px;
+}
+
+.ghostEyeLeft{
+    width: 11px;
+    height: 11px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    left: 390px;
+    top: 87px;
+}
+
+.dot01{
+    width: 20px;
+    height: 20px;
+    background: yellow;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    left: 240px;
+    top: 150px;
+}
+
+.dot02{
+    width: 20px;
+    height: 20px;
+    background: yellow;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    left: 550px;
+    top: 67px;
+}
+
+.dot03{
+    width: 18px;
+    height: 18px;
+    background: yellow;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    left: 710px;
+    top: 43px;
+}
+
+.stickHead{
+width: 55px;
+height: 55px;
+background: black;
+border-radius: 50%;
+position: absolute;
+left: 620px;
+top: 390px;
+}
+
+.stickHat01{
+width: 70px;
+height: 5px;
+background: black;
+position: absolute;
+left: 612px;
+top: 395px;
+}
+
+.stickHat02{
+width: 40px;
+height: 40px;
+background: black;
+position: absolute;
+left: 627px;
+top: 360px;
+}
+
+.stickArmLeft{
+    width: 5px;
+    height: 80px;
+    background: black;
+    position: absolute;
+    left: 625px;
+    top: 450px;
+    transform: rotate(30deg);
+}
+
+.stickArmRight{
+    width: 5px;
+    height: 80px;
+    background: black;
+    position: absolute;
+    left: 665px;
+    top: 450px;
+    transform: rotate(330deg);
+}
+
+.stickBody{
+    width: 5px;
+    height: 80px;
+    background: black;
+    position: absolute;
+    left: 645px;
+    top: 443px;
+}
+
+.stickLegLeft{
+    width: 5px;
+    height: 105px;
+    background: black;
+    position: absolute;
+    left: 618px;
+    top: 515px;
+    transform: rotate(30deg);
+}
+
+.stickLegRight{
+    width: 5px;
+    height: 105px;
+    background: black;
+    position: absolute;
+    left: 671px;
+    top: 515px;
+    transform: rotate(330deg);
+}
+
+.trapezoid01{
+    border-bottom: 150px solid black;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 175px;
+    position: absolute;
+    z-index: -1;
+    left: 500px;
+    top: 600px;
+}
+
+.trapezoid02{
+    border-bottom: 225px solid black;
+    border-left: 65px solid transparent;
+    border-right: 65px solid transparent;
+    height: 0;
+    width: 260px;
+    position: absolute;
+    z-index: -1;
+    left: 225px;
+    top: 525px;
+}
